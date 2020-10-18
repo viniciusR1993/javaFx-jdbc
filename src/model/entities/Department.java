@@ -1,15 +1,14 @@
-//Esse código foi criado em aulas anteriores.
 package model.entities;
 
 import java.io.Serializable;
 
-public class Department implements Serializable {
+public class Department implements Serializable{
 
-	private static final long serialVersionUID = 1L;
-
+	
+	private static final long serialVersionUID = 1L; //Quando implementamos o Serializable fazemos com que nosso objeto sejam armazenado como bytes
 	private Integer id;
 	private String name;
-
+	
 	public Department() {
 	}
 
