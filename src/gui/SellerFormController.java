@@ -38,7 +38,7 @@ import model.services.SellerService;
 
 public class SellerFormController implements Initializable {
 
-	private SellerService service;
+	private SellerService service = new SellerService();
 
 	private DepartmentService departmentService;
 
